@@ -62,7 +62,7 @@ host = ModbusRTUMaster(
     # stop_bits=1,          # optional, default 1
     # parity=None,          # optional, default None
     # ctrl_pin=12,          # optional, control DE/RE
-    uart_id=uart_id,  # optional, default 1, see port specific documentation
+    # uart_id=uart_id,  # optional, default 1, see port specific documentation
 )
 
 while True:
